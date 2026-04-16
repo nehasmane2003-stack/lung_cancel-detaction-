@@ -60,7 +60,7 @@ if uploaded_file is not None:
 
     # 🔥 VALIDATION CHECK
     if not is_ct_scan(img):
-        st.error("⚠️ Invalid Input: Please upload a lung CT scan image only.")
+        st.error(" Invalid Input: Please upload a lung CT scan image only.")
         st.image(img, caption="Rejected Image", use_column_width=True)
         st.stop()
 
@@ -73,7 +73,7 @@ if uploaded_file is not None:
     confidence = float(prediction[0][0])
 
     if confidence > 0.5:
-        st.error(f"Cancer Detected ❌ (Confidence: {confidence:.2f})")
+        st.error(f"Cancer Detected (Confidence: {confidence:.2f})")
     else:
         st.success(f"Normal ✅ (Confidence: {1-confidence:.2f})")
 
