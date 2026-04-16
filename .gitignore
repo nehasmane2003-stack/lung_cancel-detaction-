@@ -1,0 +1,14 @@
+# Ignore dataset
+data/
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore environment
+venv/
+
+# Ignore cache
+__pycache__/
+.ipynb_checkpoints/
