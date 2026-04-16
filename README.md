@@ -197,7 +197,7 @@ It highlights how deep learning (CNN) improves performance in medical image clas
 
 ## 👨‍💻 Author
 
-Neha Smane
+Neha sanjay mane
 MSc Computer Science (AI/ML)
 
 ---
